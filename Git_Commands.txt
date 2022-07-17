@@ -1,0 +1,40 @@
+git config --global user.name "vamsikavuru"
+git config --global user.email "vamsi0110@outlook.com"
+git config --global --list
+
+git status
+git add
+echo "my fie" >> demo.txt
+git commit -m 
+
+git commit -a -m "The Commit message"
+#commit all changed files with a message
+
+git commit -m "The Commit message"
+#commit selected files with a commit message
+
+git status 
+# Show all files which have changes to commit
+
+/*to add all the files in staging area at once*/
+git add .
+
+git add file1 file2 file3
+
+git commit -a 
+
+git remote -v
+-----------------------------------------------
+
+
+ git init
+
+2. git add .
+
+3. git status
+
+4. git commit -m 'your message'
+
+5. git remote add origin 'your_url_name' 
+
+6. git push -u origin master //then login w/ your creds
